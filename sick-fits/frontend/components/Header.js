@@ -16,7 +16,7 @@ const Logo = styled.h1`
         text-transform: uppercase;
         text-decoration: none;
     }
-    @media (max-width: 1300px) {
+    @media (max-width: 1000px) {
         margin: 0;
         text-align: center;
     }
@@ -30,7 +30,7 @@ const StyledHeader = styled.header`
         justify-content: space-between;
         align-items: stretch;
 
-        @media(max-width: 1300px) {
+        @media(max-width: 1000px) {
             grid-template-columns: 1fr;
             justify-content: center;
         }
@@ -39,7 +39,7 @@ const StyledHeader = styled.header`
     .sub-bar {
         display: grid;
         grid-template-columns: 1fr auto;
-        border-bottom: 1px solid ${props => props.theme.lightgrey};
+        border-bottom: 1px solid ${props => props.theme.lightGray};
     }
 `;
 
